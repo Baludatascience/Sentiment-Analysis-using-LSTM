@@ -1,10 +1,17 @@
 # Sentiment-Analysis-using-LSTM
 This project uses an LSTM network to predict tweet sentiment to a 78% accuracy.
-###Dependencies:
+
+
+#Dependencies:
+
 Keras
+
 Pandas
+
 Numpy
+
 Sklearn
+
 The project uses an LSTM network to predict sentiment of tweets. The dataset used is include in the repo and consists of 1.6 million tweets.
 
 How to train the model:
