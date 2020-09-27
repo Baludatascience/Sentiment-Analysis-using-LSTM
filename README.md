@@ -2,7 +2,7 @@
 This project uses an LSTM network to predict tweet sentiment to a 78% accuracy.
 
 
-#Dependencies:
+# Dependencies:
 
 Keras
 
@@ -19,6 +19,6 @@ Download the dataset from the link above and rename the csv file to NewSentiment
 
 After running this python file through the CLI you should have 2 new csv files containing the preprocessed tweets and the sentiments file. You can now run the sentiment_classifier.py file through the CLI to train the model. This project already comes with the trained model files in case you want to jump straight into prediction of sentiment on new data.
 
-Conclusion:
+# Conclusion:
 So far I have managed to obtain a 78% accuracy with my model. I believe this is due in part to the vast amount of neutral words found in the data, some of which I have removed during preprocessing. During preprocessing I removed unusual characters that were not UTF-8 compliant.
     
